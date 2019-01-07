@@ -7,26 +7,47 @@
 This project is part of my Data Science nano-degree at Udacity. In this final project, i will attempt to create a machine learning model, which will be able to predict when users at Sparkify are about to churn. Sparkify is a fictional music service much like spotify, and to aid me in my creation of this model, they have served me 12GBs of event data.
 
 The possible event types are:
+
 +--------------------------+
+
 |                    Cancel|
+
 |          Submit Downgrade|
+
 |               Thumbs Down|
+
 |                      Home|
+
 |                 Downgrade|
+
 |               Roll Advert|
+
 |                    Logout|
+
 |             Save Settings|
+
 | Cancellation Confirmation|
+
 |                     About|
+
 |                  Settings|
+
 |           Add to Playlist|
+
 |                Add Friend|
+
 |                  NextSong|
+
 |                 Thumbs Up|
+
 |                      Help|
+
 |                   Upgrade|
+
 |                     Error|
+
 |            Submit Upgrade|
+
 +--------------------------+
 
 Where the type 'Cancellation Confirmation' is set equal to users churning.
@@ -50,7 +71,9 @@ used a simple pivot of the evnet that seemed to contain the most relevant differ
 Three models were trained with this data, givin the following F1 Values:
 
 Gradient Boosted Trees - 68.9%
+
 Random Forest - 68.4%
+
 SVM - 68.4%
 
 While the values look promising, inspection of the confusion matricies revealed that SVM and Random Forest classified all users as non-churning, but because of the the relative low number of churned users, the F1 score was still fairly high.
@@ -67,7 +90,9 @@ The results were much better than the inital attempt. With a F1-score of 89.1% f
 Files included in this project are:
 
 README.md - This readme
+
 Sparkify.html/ipynb - notebook used for POC in Udacity Workspace
+
 JHH_Udacity_Notebook.html/ipynb - notebook used for managing spark cluster on full dataset in AWS
 
 # References
