@@ -67,7 +67,6 @@ The results were much better than the inital attempt. With a F1-score of 89.1% f
 Files included in this project are:
 
 README.md - This readme
-mini_sparkify_event_data.json - Mini version of the dataset, used for POC
 Sparkify.html/ipynb - notebook used for POC in Udacity Workspace
 JHH_Udacity_Notebook.html/ipynb - notebook used for managing spark cluster on full dataset in AWS
 
